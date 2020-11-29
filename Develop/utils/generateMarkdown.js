@@ -23,9 +23,11 @@ const fs = require('fs');
   
   
     // Generate markdown for the top required portions of the README
+    //[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
     let draftMarkdown = 
     `# <h1 align="center">${userResponses.projectTitle} 👋</h1>
-    ![Badge for GitHub repo top language](![badge](https://img.shields.io/badge/license-${userResponses.license}-brightgreen)<br />
+    ![badge](<https://img.shields.io/badge/license-${userResponses.license}-brightgreen)
+  
     
     Check out the badges hosted by [shields.io](https://shields.io/).
     
@@ -123,7 +125,7 @@ const fs = require('fs');
     
     For any questions, please contact me with the information below:
     
-    GitHub: [@${userResponses.username}](https://github.com/${userResponses.username})<br />
+    GitHub: [@${userResponses.username}](<https://github.com/${userResponses.username}>)
     For any additional questions, please contact me with the email below:
     ${userResponses.repo}
     `;
