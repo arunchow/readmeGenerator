@@ -114,7 +114,8 @@ const fs = require('fs');
     // Questions / About Developer section
     //![Developer Profile Picture](${userInfo.avatar_url}) 
     //GitHub: [@${userInfo.login}](${userInfo.url})
-    let draftDev = 
+    //let draftDev =
+    draftMarkdown += 
     `
     ---
     
@@ -122,23 +123,10 @@ const fs = require('fs');
     
     For any questions, please contact me with the information below:
     
-    GitHub: ${userResponses.username}
+    GitHub: [@${userResponses.username}](https://github.com/${userResponses.username})<br />
     For any additional questions, please contact me with the email below:
     ${userResponses.repo}
     `;
-  
-    // // If GitHub email is not null, add to Developer section
-    // if (userInfo.email !== null) {
-    
-    // draftDev +=
-    // `
-    // Email: ${userInfo.email}
-    // `};
-  
-    // // Add developer section to markdown
-    // draftMarkdown += draftDev;
-  
-    // Return markdown
     console.log('Draft Markdown :' + draftMarkdown)
     return draftMarkdown;
   }

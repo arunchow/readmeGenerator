@@ -1,5 +1,5 @@
-# <h1 align="center">Fun Node Project 👋</h1>
-    ![Badge for GitHub repo top language](![badge](https://img.shields.io/badge/license-Academic-brightgreen)<br />
+# <h1 align="center">Introduction to NodeJS 👋</h1>
+    ![Badge for GitHub repo top language](![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
     
     Check out the badges hosted by [shields.io](https://shields.io/).
     
@@ -8,7 +8,7 @@
     
     *The what, why, and how:* 
     
-    🔍Node JS
+    🔍Nod JS project
     ## Table of Contents
     * [Installation](#installation)
     * [Usage](#usage)
@@ -20,22 +20,32 @@
     
     *Steps required to install project and how to get the development environment running:*
     
-    💾steps - multiple
+    💾NA
     
     ## Usage 
     
     *Instructions and examples for use:*
     
-    💻All instructions provided
+    💻Usage is varied
     
     ## Tests
     
     *Tests for application and how to run them:*
     
-    ✏️Junit test
+    ✏️TDD
     
     ## License
-    ![badge](https://img.shields.io/badge/license-Academic-brightgreen)
+    ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
     <br />
-    This application is covered by the Academic license
+    This application is covered by the MIT license
+    
+    ---
+    
+    ## Questions?
+    
+    For any questions, please contact me with the information below:
+    
+    GitHub: [@arunchow](https://github.com/arunchow)<br />
+    For any additional questions, please contact me with the email below:
+    abc@email.com
     
