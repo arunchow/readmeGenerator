@@ -45,8 +45,3 @@ https://github.com/arunchow/readmeGenerator/tree/develop/Develop/readmeGenerator
 
 Download Video file from the location below for demonstration.
 https://github.com/arunchow/readmeGenerator/tree/develop/Develop/readmeGenerator/Develop/dist/ReadmeCreation_-Nov-29-2020-1_52-AM.mp4
-
-
-
-
-
